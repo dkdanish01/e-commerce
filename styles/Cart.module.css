@@ -1,0 +1,48 @@
+.cartContainer {
+  padding: 40px;
+}
+
+.cartItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+}
+
+.cartItem img {
+  width: 120px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.info h3 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.info p {
+  margin: 5px 0;
+}
+
+.info button {
+  background: red;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.total {
+  margin-top: 30px;
+}
+
+.checkout {
+  padding: 10px 20px;
+  font-size: 16px;
+  background: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

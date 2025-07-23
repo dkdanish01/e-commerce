@@ -1,0 +1,66 @@
+.section {
+  padding: 60px 20px;
+  background: #fff;
+  text-align: center;
+}
+
+.heading {
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #0f3d29;
+}
+
+.grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  position: relative;
+  width: 280px;
+  height: 360px;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: #8e4c1acf;
+  width: 100%;
+  color: white;
+  padding: 20px;
+}
+
+.overlay h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.overlay button {
+  background-color: #ffc107;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.overlay button:hover {
+  background-color: #e0a800;
+}

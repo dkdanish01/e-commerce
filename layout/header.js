@@ -17,7 +17,7 @@ const Header = () => {
 
   return (
     <header className={styles.header}>
-      <div className={styles.logo}>MyClothing</div>
+      <div className={styles.logo}>Ecommerce</div>
 
       <nav className={styles.nav}>
         <Link href="/">Home</Link>
